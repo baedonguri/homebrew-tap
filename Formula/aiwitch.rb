@@ -14,7 +14,7 @@ class Aiwitch < Formula
 
   test do
     assert_match version.to_s, shell_output("#{bin}/aiwitch --version")
-    assert_match "aiwitch use", shell_output("#{bin}/aiwitch shell init zsh")
-    assert_match "set -gx", shell_output("#{bin}/aiwitch shell init fish")
+    assert_match "aiwitch()", shell_output("#{bin}/aiwitch shell init zsh")
+    assert_match "function aiwitch", shell_output("#{bin}/aiwitch shell init fish")
   end
 end
