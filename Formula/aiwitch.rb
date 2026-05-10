@@ -1,8 +1,8 @@
 class Aiwitch < Formula
   desc "Multi-account / multi-profile switcher for AI CLIs (Codex, Claude Code, ...)"
   homepage "https://github.com/baedonguri/aiwitch"
-  url "https://github.com/baedonguri/aiwitch/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "2d4aa1e53ed47f9b7cc5172f75135f2f78f600e266bca445705eaa484d8faf09"
+  url "https://github.com/baedonguri/aiwitch/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "6290d231e11868f8c764dd6a4f86bc9c1bf670f276da7615c81b16f408f2d0c1"
   license "MIT"
   head "https://github.com/baedonguri/aiwitch.git", branch: "main"
 
